@@ -7,8 +7,8 @@
   static Book bookInventoryObject;	
  	
   public Novel(){
-  public Novel(String bookName, int numberpage, String novelType) {
-  super(bookName, numberpage);
+  public Novel(String nameofthebook, int numberpage, String novelType) {
+  super(nameofthebook, numberpage);
   this.novelType = novelType;
 
 }
